@@ -99,11 +99,20 @@ color: #474747;;
     justify-content: center;
     margin-top: 45px;
 }
+.plan-container h1{
+    margin: 16px 0px;
+    font-size: 26px;
+    color: rgba(21, 20, 20, 0.924);
+}
+.plan-container p{
+    color: rgba(35, 35, 35, 0.851);
+}
 .plans1, .plans2, .plans3{
-    height: 220px;
+    height: 230px;
     width: 220px;
-    padding: 30px;
+    padding: 40px 20px;
     border-radius: 6px;
+    text-align: justify;
 }
 .plans1{
     background-color: rgba(0, 255, 255, 0.234) ;
@@ -162,23 +171,43 @@ color: #474747;;
 .email-bar{
     height: 170px;
     width: 730px;
-    margin: 0 auto;
+    margin: 65px auto;
     display: flex;
     align-items: center;
     background-color: rgba(247, 193, 202, 0.22);
     justify-content: center;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .email-bar input{
     padding: 13px;
     border: none;
+    background-color: rgb(225, 216, 216);
     border-radius: 5px;
+   
 }
 .email-bar button{
     padding: 12px 30px;
     border: none;
-    border-top-right-radius: 50px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     font-size: 15px;
     color: white;
     background-color:  rgb(249, 104, 133);
+}
+.copyright{
+    background-color: rgb(1, 1, 22);
+    height: px;
+    text-align: center;
+    padding: 50px;
+}
+.copyright h1{
+    color: rgb(221, 14, 32);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
+}
+.copyright p{
+    color: white;
+    font-size: 17px;
 }
