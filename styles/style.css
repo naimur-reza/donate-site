@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/******** Header design************ */
 header{
     width: 100%;
     height: 580px;
@@ -27,10 +28,12 @@ header{
     margin: 20px 135px;
     font-weight: 500;
 }
+
 .btn{
     text-align: center;
     margin: 30px 0px;
 }
+/* Universel Button for apply others button */
 .btn-primary{
     padding: 12px;
     font-size: 19px;
@@ -39,6 +42,7 @@ header{
     color: white;
     background-color: rgb(252, 53, 93);
 }
+
 .body-title{
     text-align: center;  
     margin-top: 30px;
@@ -84,6 +88,8 @@ color: #474747;;
     text-align: center;
     margin: 40px 0px;
 }
+/* Plan boxes design */
+
 .plan-side{
     text-align: center;
 }
@@ -123,6 +129,7 @@ color: #474747;;
 .plans3{
     background-color: rgba(255, 166, 0, 0.341);
 }
+/* BODY ER IMAGE DESIGN GULA */
 .data-container{
     display: flex;
     gap: 70px;
@@ -156,6 +163,7 @@ color: #474747;;
     color: white;
     background-color: rgb(255, 112, 140);
 }
+/* *************************Main Footer section************************************* */
 .footer-container{
     text-align: center;
     margin-top: 100px;
